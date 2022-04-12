@@ -1,10 +1,23 @@
-import React from 'react';
+import React from 'react'
 
 
 export default function Footer(){
     return(
-        <div>
-        <footer className="icons">
+        <footer>
+     <p className="copyright">&copy; 2023 created by kainat farooq</p>
+     
+     <div className="div-p"> 
+     
+
+       <div>
+        <p className="parah">Write</p>
+        <p className="sub-parah">kainatfarooqmunara@gmail.com</p>
+        </div>
+       
+       <div>
+        <p className="parah">Follow</p>
+        
+        <p className="icons">
         <a href='www.twitter.com' target="_blank" >
         <i className="fa fa-facebook-official" aria-hidden="true"></i>
         </a>
@@ -17,11 +30,14 @@ export default function Footer(){
         <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
         
-        <a href="www.github.com" target="_blank">
+        <a href="https://github.com/Kainat18" target="_blank">
         <i className="fa fa-github-square" aria-hidden="true"></i>
         </a>
+        </p>
         
-        </footer>
+       </div>
+        
         </div>
+       </footer>
     )
 }

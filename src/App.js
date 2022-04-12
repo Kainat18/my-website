@@ -1,21 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Image from './components/photo';
-import Name from './components/name';
-import  Buttons from'./components/button1';
-import About from './components/about';
-import Interest from './components/interests';
-import Footer from './components/footer';
+import Main from './components/MainPage'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import About from './components/AboutMe'
+import Resume from './components/Resume'
+import Projects from './components/Projects'
+
 
 function App() {
 return(
 <div>
-<Image />
-        <Name/>
-        <Buttons/>
-        <About/>
-        <Interest />
-        <Footer />
+     <Main />
+      <Navbar />
+     <About />
+      <Projects />
+   <Resume />
+    <Footer />
 </div>
 )
 
