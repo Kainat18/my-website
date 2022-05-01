@@ -6,17 +6,20 @@ import Footer from './components/Footer'
 import About from './components/AboutMe'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
+import Email from './components/Email.js'
 
 
 function App() {
 return(
 <div>
      <Main />
-      <Navbar />
+     <Navbar />
      <About />
-      <Projects />
+   <Projects />
    <Resume />
-    <Footer />
+  <Email />
+  <Footer />
+      
 </div>
 )
 
@@ -24,3 +27,8 @@ return(
 }
 
 export default App;
+/*  <Navbar />
+<About />
+<Projects />
+<Resume />
+/ <Footer />*/

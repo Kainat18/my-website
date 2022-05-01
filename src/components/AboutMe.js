@@ -6,7 +6,7 @@ export default function About(){
 
         
         <div className="About"> 
-      <img alt="card-image" src='https://www.maxpixel.net/static/photo/1x/Icon-Female-Avatar-Female-Icon-Red-Icon-Avatar-6007530.png'className="image"/>
+      <img alt="card"  src='https://www.maxpixel.net/static/photo/1x/Icon-Female-Avatar-Female-Icon-Red-Icon-Avatar-6007530.png'className="image"/>
           
     <h2>Kainat Farooq</h2>
                      
@@ -15,25 +15,21 @@ export default function About(){
           
           <div className="div-icon">
         <p className="card-icons">
-          <a href='www.twitter.com' target="_blank" >
-        <i className="fa fa-facebook-official" aria-hidden="true"></i>
-        </a>
-        
-        <a href='www.facebook.com' target="_blank" >
+          <a title="twitter account" href='www.twitter.com' target="_blank" >
         <i className="fa fa-twitter-square" aria-hidden="true"></i>
         </a>
         
-        <a href="www.instagram.com" target="_blank">
-        <i className="fa fa-instagram" aria-hidden="true"></i>
+        <a href='www.facebook.com' target="_blank" title="facebook account">
+        <i className="fa fa-facebook-official" aria-hidden="true"></i>
         </a>
         
-        <a href= "https://github.com/Kainat18" target= "_blank">
+        <a href= "https://github.com/Kainat18" target= "_blank" title="github account">
         <i className="fa fa-github-square" aria-hidden="true"></i>
         </a>
         </p>
             
           </div>
-          
+          </div>
           <div className="description">
           <h2>Hello</h2>
           <h4 className="intro">Here's who I am & what I do</h4>
@@ -43,13 +39,13 @@ export default function About(){
          <a href="#projects" > <button className="btn-2">PROJECTS</button> </a>
          </div>
             
-          <p>My name is Kainat Farooq </p>
-          <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+          <p className='aboutme'> I'm Kainat Farooq </p>
+          <p className='aboutme'>I’m a self-motivated young individual and a beginner in web-development</p>
             
           </div>
 
           
-          </div>
+         
 
       </section>
     )

@@ -13,10 +13,10 @@ export default function Navbar(){
         <a href="#about">ABOUT ME</a>
       </li>
       <li>
-        <a href="#resume">RESUME</a>
+        <a href="#projects">PROJECTS</a>
       </li>
       <li>
-        <a href="#projects">PROJECTS</a>
+        <a href="#resume">RESUME</a>
       </li>
     
      </ul>
