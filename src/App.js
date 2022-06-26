@@ -6,8 +6,6 @@ import Footer from './components/Footer'
 import About from './components/AboutMe'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
-import Email from './components/Email.js'
-
 
 function App() {
 return(
@@ -17,8 +15,7 @@ return(
      <About />
    <Projects />
    <Resume />
-  <Email />
-  <Footer />
+   <Footer />
       
 </div>
 )
