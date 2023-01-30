@@ -10,6 +10,7 @@ export default function Projects(props){
     <h1 className="project-head">PROJECTS</h1>
 
     <div className="grid">
+
     <div className="picture-div">
 
       <img
@@ -46,12 +47,12 @@ src='https://i.postimg.cc/FK3YqM4s/Screenshot-33.png'
     
     <img
       className="project-image3"
-      src='https://i.postimg.cc/9QV5VmJs/Screenshot-34.png'
+      src='https://i.postimg.cc/hGR2d5wH/project-5.png'
       alt="project"
     />
 
 <a
-    href="https://replit.com/@Kainat1/TASK-TRACKER"
+    href="https://replit.com/@Kainat1/password-generator-1"
     target="_blank"
     className="project project-tile"
   ><button className="p-btn3">Project 03</button> </a>
