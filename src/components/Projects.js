@@ -52,7 +52,7 @@ src='https://i.postimg.cc/FK3YqM4s/Screenshot-33.png'
     />
 
 <a
-    href="https://replit.com/@Kainat1/password-generator-1"
+    href="https://password-generator-1.kainat1.repl.co"    
     target="_blank"
     className="project project-tile"
   ><button className="p-btn3">Project 03</button> </a>
